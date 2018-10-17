@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.cache
+webScriptureSnapshot.js
+.angular-cli.json
+package-lock.json

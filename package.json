@@ -1,0 +1,22 @@
+{
+  "name": "tech-concepts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format-code": "prettier --write --ignore-path .prettierignore --config .prettierrc \"./src/**/*.?(js|ts|scss|json)\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevin-ashton/tech-concepts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevin-ashton/tech-concepts/issues"
+  },
+  "homepage": "https://github.com/kevin-ashton/tech-concepts#readme",
+  "dependencies": {
+    "prettier": "1.14.3"
+  }
+}
