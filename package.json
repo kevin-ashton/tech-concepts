@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "format-code": "prettier --write --ignore-path .prettierignore --config .prettierrc \"./src/**/*.?(js|ts|scss|json)\""
+    "format-code": "prettier --write --ignore-path .prettierignore --config .prettierrc \"./**/*.?(js|ts|scss|json)\""
   },
   "repository": {
     "type": "git",

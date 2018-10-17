@@ -7,7 +7,8 @@ import { Component, ViewEncapsulation, Input } from '@angular/core';
   encapsulation: ViewEncapsulation.Native
 })
 export class AppComponent {
-  @Input() name = 'friend';
+  @Input()
+  name = 'friend';
   focus: string;
   focusSet = false;
 
