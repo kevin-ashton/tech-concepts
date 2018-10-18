@@ -1,5 +1,6 @@
 .widget-container {
-  color: red;
+  padding: 10px;
+  border: 1px dotted gray;
 }
 
 .content {

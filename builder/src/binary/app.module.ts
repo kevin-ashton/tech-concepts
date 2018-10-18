@@ -13,7 +13,7 @@ import { AppComponent } from './app.component';
 export class AppModule {
   constructor(private injector: Injector) {
     const el = createCustomElement(AppComponent, { injector });
-    customElements.define('momentum-element', el);
+    customElements.define('binary-widget', el);
   }
   ngDoBootstrap() {}
 }

@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "rm -Rf dist && ng build --prod --output-hashing none && node elements-build.js"
+    "build": "rm -Rf dist && ng build --prod --output-hashing none && node merge-files.js"
   },
   "private": true,
   "dependencies": {
