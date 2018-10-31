@@ -22,4 +22,4 @@ Even though the current hot technology is always in flux, it is worth noting tha
 
 * *Demonstrate concepts using multiple instances.* Using multiple instances has two main advantages.
     * First, multiple instances can help the leaner distinguish the essence of a concept from implementation-specific syntax. On an abstract level this can be demonstrated by drawing two circles that each represent an instance of a concept as shown in Figure 1.  Each circle contains multiple shapes some of which represent implementation-specific syntax and others which represent essence of the concept. Either circle in isolation makes it very difficult to determine which internal shapes represent the core concept and which shapes represent implementation-specific syntax. However, add a second circle and it becomes obvious that the star shapes represent the core concepts and all other shapes are merely implementation-specific syntax.
-    ![Image of Yaktocat](./assets/abcircles.png | height=200)
+    ![image of circles](./assets/abcircles.png)
