@@ -25,23 +25,26 @@ Even though the current hot technology is always in flux, it is worth noting tha
   First, multiple instances can help the leaner distinguish the essence of a concept from implementation-specific syntax. On an abstract level this can be demonstrated by drawing two circles that each represent an instance of a concept as shown in Figure 1.  Each circle contains multiple shapes some of which represent implementation-specific syntax and others which represent essence of the concept. Either circle in isolation makes it very difficult to determine which internal shapes represent the core concept and which shapes represent implementation-specific syntax. However, add a second circle and it becomes obvious that the star shapes represent the core concepts and all other shapes are merely implementation-specific syntax.
   
   <p align="center"><img src="./assets/abcircles.png" alt="image of circles" ></p>
+  <p align="center">Figure 1</p>
   
   A more concrete example of this can be seen by looking at two for-loops in different programming languages as shown in Figure 2. When both for-loops are showed side by side commonalities between the two constructs become obvious. For example, both examples have numbers that control the number of iterations. Additionally, it becomes obvious that details such as indenting, braces, and semicolons are linked to the specific programming language and not part of the core concept of a for-loop.
   
   <p align="center"><img src="./assets/ablang.png" alt="image of two programming languages"></p>
+  <p align="center">Figure 2</p>
   
   Second, using multiple instances helps clarify details of each particular instance. Consider two colors as displayed in Figure 3. Most people looking casually at these two colors (provided their screen is calibrated) would have trouble seeing how these two squares are different or even question if they are different. However, when you bring the two colors close together in Figure 4 their slight differences become apparent.
   
   <p align="center"><img src="./assets/squaresapart.png" alt="two squares apart" ></p>
-  
-  
+  <p align="center">Figure 3</p>
+    
   <p align="center"><img src="./assets/squarestogether.png" alt="two squares together" ></p>
+  <p align="center">Figure 4</p>
   
   In a similar way instances of a technology concepts receive greater clarification when compared. For example, Mocha and Jasmine are javascript testing frameworks with many similar features. In the same way the two colored blocks look very similar when separated, each framework looks very similar when you visit their home pages. Just as the nuanced differences between the two green blocks becomes much more clear when they are brought together and compared, so the differences between Mocha and Jasmine are clarified when they are brought together and compared. This can be illustrated in an article such <a href='http://thejsguy.com/2015/01/12/jasmine-vs-mocha-chai-and-sinon.html'>Jasmine vs. Mocha, Chai, and Sinon</a> by David Tang.  Within his article you will find small snippets of code each framework placed next to each other. In this way the subtle differences of each framework are easy to distinguish.    
    
 * Provide immediate feedback for to the learner when experimenting with the base concept.* Feedback has been a recognized principle for instruction for many years. Technology tools and languages by their very nature have always been reasonably good at providing feedback to learners. For example, when you write some code and compile it you get some output. When you make a mistake in your code an error occurs. Perhaps the hardest part of providing learners with feedback traditionally has been setting up a development environment. This problem has been largely mitigated by online learning development environments such as codecademy.com, codeavengers.com, to cite but a few. Though we have done well in providing feedback for specific programming languages instruction often lacks this some level of feedback when it comes to the base concept. Specifically, this bullet point deals with providing immediate feedback for the concept, and opposed to only providing feedback for the instance of the concept as typically accomplished with online development environments. An example of providing immediate feedback for a base concept can be demonstrated with the <a target='_blank' href='/legacy/binary.html'>binary widget</a>. It demonstrates the base concept but is also interactive providing immediate feedback to the learner.
   
-  * Keep the content as short as reasonably possible.
+* Keep the content as short as reasonably possible.
 
 Finally, it should be noted that this list is not conclusive and may be modified in the future. Additionally, most of these principals have some basis in learning theory, though it is beyond the scope ofthis page to provide details regarding this. References to at least some of these can be found in my <a href='https://dl.dropboxusercontent.com/u/472522/techconcepts/Kevin_Ashton_MS_Project.docx'>master'sproject</a>.
 
