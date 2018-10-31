@@ -25,20 +25,20 @@ Even though the current hot technology is always in flux, it is worth noting tha
   First, multiple instances can help the leaner distinguish the essence of a concept from implementation-specific syntax. On an abstract level this can be demonstrated by drawing two circles that each represent an instance of a concept as shown in Figure 1.  Each circle contains multiple shapes some of which represent implementation-specific syntax and others which represent essence of the concept. Either circle in isolation makes it very difficult to determine which internal shapes represent the core concept and which shapes represent implementation-specific syntax. However, add a second circle and it becomes obvious that the star shapes represent the core concepts and all other shapes are merely implementation-specific syntax.
   
   <p align="center"><img src="./assets/abcircles.png" alt="image of circles" ></p>
-  <p align="center">Figure 1</p>
+  <sup>Figure 1</sup>
   
   A more concrete example of this can be seen by looking at two for-loops in different programming languages as shown in Figure 2. When both for-loops are showed side by side commonalities between the two constructs become obvious. For example, both examples have numbers that control the number of iterations. Additionally, it becomes obvious that details such as indenting, braces, and semicolons are linked to the specific programming language and not part of the core concept of a for-loop.
   
   <p align="center"><img src="./assets/ablang.png" alt="image of two programming languages"></p>
-  <p align="center">Figure 2</p>
+  <sup>Figure 2</sup>
   
   Second, using multiple instances helps clarify details of each particular instance. Consider two colors as displayed in Figure 3. Most people looking casually at these two colors (provided their screen is calibrated) would have trouble seeing how these two squares are different or even question if they are different. However, when you bring the two colors close together in Figure 4 their slight differences become apparent.
   
   <p align="center"><img src="./assets/squaresapart.png" alt="two squares apart" ></p>
-  <p align="center">Figure 3</p>
+  <sup>Figure 3</sup>
     
   <p align="center"><img src="./assets/squarestogether.png" alt="two squares together" ></p>
-  <p align="center">Figure 4</p>
+  <sup>Figure 4</sup>
   
   In a similar way instances of a technology concepts receive greater clarification when compared. For example, Mocha and Jasmine are javascript testing frameworks with many similar features. In the same way the two colored blocks look very similar when separated, each framework looks very similar when you visit their home pages. Just as the nuanced differences between the two green blocks becomes much more clear when they are brought together and compared, so the differences between Mocha and Jasmine are clarified when they are brought together and compared. This can be illustrated in an article such <a href='http://thejsguy.com/2015/01/12/jasmine-vs-mocha-chai-and-sinon.html'>Jasmine vs. Mocha, Chai, and Sinon</a> by David Tang.  Within his article you will find small snippets of code each framework placed next to each other. In this way the subtle differences of each framework are easy to distinguish.    
    
