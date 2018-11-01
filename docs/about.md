@@ -7,7 +7,7 @@
 
 ## Overview
 
-One of the greatest challenges we encounter in our knowledge driven society is keeping up with the ever changing face of technology. Specific software tools, languages, and frameworks can change atrelatively quick rates, forcing us to update our skills constantly. This cycle can be particularly vicious as a technology professional since frameworks that are popular today can quickly lose favor tomorrow.
+One of the greatest challenges we encounter in our knowledge driven society is keeping up with the ever changing face of technology. Specific software tools, languages, and frameworks can change at relatively quick rates, forcing us to update our skills constantly. This cycle can be particularly vicious for technology professional since frameworks that are popular today can quickly lose favor tomorrow.
 
 Even though the current hot technology is always in flux, it is worth noting that the underlying concepts of technology are relatively constant. For example, the concept of a programmatic loop has remained more or less constant for decades. Though the tags and styles used within html continue to evolve as new features are added, the underlying concept of markup and a style has remained unchanged.
 
@@ -18,7 +18,7 @@ Even though the current hot technology is always in flux, it is worth noting tha
 * As you begin to understand multiple instances of a concept it often converts tacit knowledge into explicit knowledge. For example, as a learner comes to understand how the decimal system works conceptually, it becomes obvious why it is considered a base 10 system.
 * Conceptual learning is typically pretty interesting. I recognize this is not particularly scholarly and likely demonstrates my personal bias, but I truly get the feeling conceptual learning is usually interesting to people. It is in the details of implementation that we get bored. When we are interested in something we naturally tend to pay attention more, and have a much better chance of learning it.
 
-**Additionally, this site attempts to teach current technologies and concepts using solid instructional principals.** There are certainly many approaches to generating instruction, allwith different advantages and disadvantages. The following are the core instructional principles outlining how instruction has been crafted.
+**Additionally, this site attempts to teach current technologies and concepts using solid instructional principals.** There are certainly many approaches to generating instruction, all with different advantages and disadvantages. The following are the core instructional principles outlining how instruction has been crafted.
 
 * *Demonstrate concepts using multiple instances.* Using multiple instances has two main advantages.
   
