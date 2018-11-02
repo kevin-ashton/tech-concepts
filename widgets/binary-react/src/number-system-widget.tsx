@@ -8,7 +8,7 @@ interface CompProps {
   }
 interface CompState {}
 
-const boxSize = 30;
+const boxSize = 20;
 
 export default class NumberSystemWidget extends Component<CompProps, CompState> {
   constructor(props) {
@@ -34,7 +34,6 @@ export default class NumberSystemWidget extends Component<CompProps, CompState> 
       
       let z = tracker / v;
       if(exceedsMaxSupportedValue) {
-        console.log('Too big')
         columnOffsetIncrements.push(this.props.characters.length - 1);
       }
       else if(z > 0) {        
@@ -58,8 +57,8 @@ export default class NumberSystemWidget extends Component<CompProps, CompState> 
     }
 
     return (      
-      <div style={{ display: 'inline-block', position: 'relative', paddingTop: boxSize * this.props.characters.length, paddingLeft: boxSize, paddingRight: boxSize, paddingBottom: boxSize, outline: '1px solid gray'}}>
-        <div style={{ position: 'absolute', top: boxSize * this.props.characters.length, left: boxSize, display: 'inline-block', backgroundColor: 'yellow', opacity: .5, height: boxSize, width: boxSize * this.props.columns}}></div>
+      <div style={{ display: 'inline-block', position: 'relative', paddingTop: boxSize * this.props.characters.length - boxSize / 2, paddingLeft: boxSize / 2 , paddingRight: boxSize / 2 , paddingBottom: boxSize / 2, outline: '1px solid gray'}}>
+        <div style={{ position: 'absolute', top: boxSize * this.props.characters.length - boxSize / 2, left: boxSize / 2, display: 'inline-block', backgroundColor: 'lime', opacity: .7, height: boxSize, width: boxSize * this.props.columns}}></div>
         {columns}
       </div>
     );
@@ -80,6 +79,7 @@ const characterStyles = {
   border: "1px solid green",
   display: "flex",
   alignItems: "center" as 'center',
-  justifyContent: "center" as 'center'
+  justifyContent: "center" as 'center',
+  fontSize: "10px"
 }
 
